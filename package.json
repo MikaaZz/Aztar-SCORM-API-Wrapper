@@ -1,0 +1,22 @@
+{
+  "name": "aztar-scorm-api-wrapper",
+  "version": "1.0",
+  "description": "Aztar SCORM API Wrapper to be used with the most LMS plataforms in the market",
+  "main": "Aztar_API_wrapper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MikaaZz/Aztar-SCORM-API-Wrapper"
+  },
+  "keywords": [
+    "SCORM"
+  ],
+  "author": "Mikhael Zimmermann ( Aztar )",
+  "license": "MIT-style license: http://mikhaelzimmermann.github.io/Aztar-SCORM-API-Wrapper/LICENSE",
+  "bugs": {
+    "url": "https://github.com/MikaaZz/Aztar-SCORM-API-Wrapper/issues"
+  },
+  "homepage": "https://github.com/MikaaZz/Aztar-SCORM-API-Wrapper"
+}
