@@ -1,22 +1,20 @@
 {
   "name": "aztar-scorm-api-wrapper",
-  "version": "1.0",
-  "description": "Aztar SCORM API Wrapper to be used with the most LMS plataforms in the market",
-  "main": "Aztar_API_wrapper.js",
+  "version": "1.0.0",
+  "description": "Aztar is a simple JavaScript library providing an API for SCORM communications between a web-based SCO and a SCORM-compliant LMS. The library is based on the SCORM API wrapper by Pipwerks and adapted to be used in modern JavaScript development.",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MikaaZz/Aztar-SCORM-API-Wrapper"
+    "url": "git+https://github.com/MikaaZz/Aztar-SCORM-API-Wrapper.git"
   },
-  "keywords": [
-    "SCORM"
-  ],
-  "author": "Mikhael Zimmermann ( Aztar )",
-  "license": "MIT-style license: http://mikhaelzimmermann.github.io/Aztar-SCORM-API-Wrapper/LICENSE",
+  "keywords": [],
+  "author": "Mikhael Zimmermann",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/MikaaZz/Aztar-SCORM-API-Wrapper/issues"
   },
-  "homepage": "https://github.com/MikaaZz/Aztar-SCORM-API-Wrapper"
+  "homepage": "https://github.com/MikaaZz/Aztar-SCORM-API-Wrapper#readme"
 }
