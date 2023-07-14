@@ -1,6 +1,6 @@
 {
   "name": "aztar-scorm-api-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Aztar is a simple JavaScript library providing an API for SCORM communications between a web-based SCO and a SCORM-compliant LMS. The library is based on the SCORM API wrapper by Pipwerks and adapted to be used in modern JavaScript development.",
   "main": "src/index.js",
   "scripts": {
