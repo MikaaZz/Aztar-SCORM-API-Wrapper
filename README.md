@@ -5,7 +5,13 @@ Aztar is a simple JavaScript library providing an API for SCORM communications b
 ## Installation
 
 ```
-npm install aztar
+npm i aztar-scorm-api-wrapper
+```
+
+or
+
+```
+yarn add aztar-scorm-api-wrapper
 ```
 
 ## Usage
