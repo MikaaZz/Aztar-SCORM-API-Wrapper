@@ -1,4 +1,4 @@
-class Aztar {
+export default class Aztar {
   constructor() {
     this.UTILS = {};
     this.debug = { isActive: true };
@@ -532,11 +532,13 @@ class Aztar {
         return this.API.handle !== null;
       },
     };
-    init = this.SCORM.connection.initialize;
-    get = this.SCORM.data.get;
-    set = this.SCORM.data.set;
-    save = this.SCORM.data.save;
-    quit = this.SCORM.connection.terminate;
+    this.init = this.SCORM.connection.initialize;
+    this.finish = this.SCORM.connection.terminate;
+    this.get = this.SCORM.data.get;
+    this.set = this.SCORM.data.set;
+    this.save = this.SCORM.data.save;
+    this.status = this.SCORM.status;
+    this.debug = this.SCORM.debug;
   }
   static stringToBoolean(value) {
     var t = typeof value;
@@ -564,3 +566,5 @@ class Aztar {
     }
   }
 }
+const scorm = new Aztar();
+console.log(scorm);
