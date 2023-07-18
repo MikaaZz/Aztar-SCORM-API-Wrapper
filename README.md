@@ -19,7 +19,7 @@ yarn add aztar-scorm-api-wrapper
 First, import the package:
 
 ```
-import Aztar from 'aztar';`
+import Aztar from 'aztar-scorm-api-wrapper';`
 ```
 
 ## Connection Methods
